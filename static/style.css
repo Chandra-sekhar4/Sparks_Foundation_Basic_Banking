@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    color:#f4f4f4;
+    line-height: 3rem;
+    padding-left: 20px;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    color:#1d1b1b;
+    line-height: 3rem;
+    padding-left: 20px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+/* Navigation style */
+.logo{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+.sparks{
+    color: #f4f4f4;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(235, 233, 233, 0.9);
+}
+.navigation-wrap{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(33, 63, 233);
+}
+.nav-link{
+    font-size: 0.9385rem;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: rgb(252 247 247 / 96%);
+}
+.nav-link:hover{
+    background-color: rgba(116, 116, 236, 0.61);
+    border-radius: 50%;
+    color: rgb(238, 229, 229);
+    text-decoration: underline;
+}
+
+/* Home style */
+.top-banner{
+    width: 100%;
+    background:url('../static/img.jpg') no-repeat center;
+    background-size: cover;
+    padding: 11.485rem 0 16.99rem;
+
+}
+
+/* Customers style */
+.customers{
+    margin-top: 20px;    
+}
+.customers-form{
+    margin-top: 150px;
+    margin-left: 20px;   
+}
+
+
+/* Transactions style */
+.transactions{
+    padding-left: 1.5rem; 
+    margin-top: 10px;
+
+}
+@media (max-width:576px){
+    .transactions{
+        padding-left: 0;
+    }
+}
