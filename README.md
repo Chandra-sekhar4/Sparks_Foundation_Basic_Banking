@@ -27,5 +27,5 @@ Copy code:python app.py
 Open your web browser and navigate to http://localhost:5000/ to view the banking system web page.
 
 
-####Contributing
+#### Contributing
 This project is open to contributions. If you find any bugs or would like to suggest new features, please submit an issue or a pull request.
